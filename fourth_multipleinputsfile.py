@@ -9,8 +9,8 @@ with open(files, 'r') as file:
     y = a*x**2 + b*x + c
     plt.plot(x, y, label=f'Line {i+1}: {a}x^2 + {b}x + {c}')
 plt.title('Plot of the quadratic functions')
-plt.xlabel('x')
-plt.ylabel('y')
+plt.xlabel('Time')
+plt.ylabel('Temperature')
 plt.legend()
 plt.grid(True)
 plt.show()
